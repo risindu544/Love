@@ -12,8 +12,8 @@ import aiofiles
 from wallet import WalletManager
 from blockchain import BlockchainSimulator
 
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_TOKEN_HERE")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+BOT_TOKEN = os.getenv("8954822360:AAH2S6dXJJZVuFkq86Ge6mTFrrGvyv0vCwU", "YOUR_TOKEN_HERE")
+ADMIN_ID = int(os.getenv("8842698664", "0"))
 
 wallet_mgr = WalletManager()
 blockchain = BlockchainSimulator()
